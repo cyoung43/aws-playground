@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import os
+# from dotenv import load_dotenv
 
 import aws_cdk as cdk
 
 from aws_playground.aws_playground_stack import AwsPlaygroundStack
 
+# print('loading env file')
+# load_dotenv()
 
 app = cdk.App()
 AwsPlaygroundStack(app, "AwsPlaygroundStack",

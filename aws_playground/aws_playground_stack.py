@@ -1,6 +1,7 @@
 from aws_cdk import (
     # Duration,
     Stack,
+    aws_s3 as s3,
     # aws_sqs as sqs,
 )
 from constructs import Construct
@@ -17,3 +18,5 @@ class AwsPlaygroundStack(Stack):
         #     self, "AwsPlaygroundQueue",
         #     visibility_timeout=Duration.seconds(300),
         # )
+
+        bucket = s3.Bucket(self, 'testing-bucket')
