@@ -1,6 +1,6 @@
 # Playground
 
-1. s3 bucket that can ingest files. 
+1. s3 bucket that can ingest files.
 2. S3 trigger that will invoke lambda to process file and get file metadata
 3. Part two of lambda function will post tweet with file info
 
