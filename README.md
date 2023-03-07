@@ -9,3 +9,9 @@
 <https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/post-tweets>
 
 Jk likely can't use the Twitter API due to new restriction features... Instead, just use the lambda function to write to a file in s3??
+
+## Next Steps
+
+1. Get metadata from files
+2. Write metadata to dynamodb record
+3. Hit an API to get data (may be overkill). Otherwise just get data from dynamodb using SDK
